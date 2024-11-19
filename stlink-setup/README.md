@@ -6,6 +6,6 @@ https://www.st.com/en/development-tools/stsw-link009.html
 
 You can also get to this link by searching "stlink v2 drivers" on Google, it should be the first result.
 
-After installing the drivers, you need to port forward WSL so that it can access the USB device.
+After installing the drivers, you need to forward your USB ports to WSL so that it can access the device.
 
 Instructions for this process are in the next directory, labelled 'wsl-port-forwarding'.
