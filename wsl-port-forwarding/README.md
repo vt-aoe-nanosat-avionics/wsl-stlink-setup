@@ -34,3 +34,5 @@ At the end of this process, your PowerShell terminal should resemble the below i
 It is worth noting that if you detach the USB device from your computer, you will need to re-attach the shared ST-Link to the new WSL window.
 Each time you open WSL, run Powershell as an admin and retype the attach command as previously shown (you only need to bind the bus once, after it is bound it can be attached at any time).
 
+When utilizing the TAB serial cable for testing, the same process can be used to give WSL access to the serial cable. If you use a different USB port the bus-id will change, so when in doubt use the list command to double check the numbers.
+
