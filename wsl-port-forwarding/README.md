@@ -26,8 +26,9 @@ usbipd attach --wsl --busid 1-3
 ```
 
 At the end of this process, your PowerShell terminal should resemble the below image:
+```bash
 ![SharedUSBToWSL](https://github.com/user-attachments/assets/29a2a9ff-49b7-43c9-946a-0723635afcf0)
-
+```
 
 It is worth noting that if you detach the USB device from your computer, you will need to re-attach the shared ST-Link to the new WSL window.
 Each time you open WSL, run Powershell as an admin and retype the attach command as previously shown (you only need to bind the bus once, after it is bound it can be attached at any time).
