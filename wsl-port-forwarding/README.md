@@ -27,7 +27,8 @@ usbipd attach --wsl --busid 1-3
 
 At the end of this process, your PowerShell terminal should resemble the below image:
 
-![SharedUSBToWSL](https://github.com/user-attachments/assets/29a2a9ff-49b7-43c9-946a-0723635afcf0)
+![SuccessfulSharingToWSL](https://github.com/user-attachments/assets/97884c56-f73e-41cf-85f4-c7ea324f5e49)
+
 
 
 It is worth noting that if you detach the USB device from your computer, you will need to re-attach the shared ST-Link to the new WSL window.
