@@ -4,3 +4,5 @@ To get your computer to recognize the ST-Link, you must manually install the dev
 You can also get to this link by Google'ing "stlink v2 drivers", it should be the first result.
 
 After installing the drivers, you need to port forward WSL so that it can access the USB device.
+
+Instructions for this process are in the next directory, labelled 'wsl-port-forwarding'.
